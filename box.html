@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: blue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        /* @media  screen - diye response kora jay*/
+        /* midia query sob time a niche lekhte hobe */
+        /* ata joto issa toto colum arjonn kora jabe and device ar jonno */
+        @media screen and (max-width: 576px) {
+            /*  .container lekhar karon amra atar flex direction korbo*/
+            .container{
+                flex-direction: column;
+            }
+    
+    </style>
+</head>
+<body>
+    
+    <!-- Flexible flrx korar jonno  -->
+     <h2>Flexxible Flex</h2>
+     <div class="container">
+        <div class="box">
+            <h3>First box</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos non quam voluptates repudiandae deleniti optio inventore exercitationem, veniam explicabo hic suscipit, voluptas dicta, qui facilis!</p>
+
+        </div>
+        <div class="box">
+            <h3>Second box</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis, iusto adipisci minus error, magni atque quis recusandae ex aliquam aspernatur saepe doloribus quae ducimus!</p>
+
+        </div>
+        <div class="box">
+            <h3>3rd box</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis, iusto adipisci minus error, magni atque quis recusandae ex aliquam aspernatur saepe doloribus quae ducimus!</p>
+
+        </div>
+        
+    </div>
+  
+</body>
+</html>
