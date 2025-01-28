@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+      
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+        /* justify-content: space-betwee; dile ul ar vitore sob gula soman vabe bosbe ex- home profile etc */
+        justify-content: space-between;
+   
+    }
+    nav a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #007BFF;
+    }
+
+    .login-form-container{
+        /* display: flex; */
+        display: flex;
+        /* justify-content: center;  dile ekhon kaj korbe karon ata ekhon prant*/
+        justify-content: center;
+        /* align-items: center; ata kaj korle na joto khon projonto na jayga pabe- ai jonno hight dite hobe */
+        align-items: center;
+        /* height: 90vh; - vh mane viewport heigh-90vh equals 90% of the viewport's height */
+        height: 90vh;
+        border: 1px solid;
+    }
+
+    .login-form{
+
+display: flex;
+/* flex-direction: column; deyar karon holo jate niche niche bose  */
+flex-direction: column;
+/* width: 50%; mane display ar ordhek */
+width: 50%;
+border: 1px solid blue;
+
+    }
+    .login-form input{
+        display: flex;
+        /* margin-top: 20px; email and login and pass ar vitore faka hoyar jonno */
+        margin-top: 20px;
+    }
+   
+</style>
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+           <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Blog</a></li>
+           
+            <li class="space-login"><a href="#">LOgin</a></li>
+        </ul>
+    </nav>
+    <!-- form k senter a nite hoel section ba div ar vitore nite hoe. karon form ar parent body and nav ar prant oh body -->
+  <section class="login-form-container">
+    <form class="login-form" action="">
+        <h3>please login</h3>
+        <input type="email" name="" id="" placeholder="Your email" required>
+        <input type="password" name="" id="" placeholder="Your password" required>
+        <input type="submit" value="login">
+        
+           </form>
+  </section>
+
+</body>
+</html>
